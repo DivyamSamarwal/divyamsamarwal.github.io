@@ -3,8 +3,20 @@
 <head>
 <title>Divyam Samarwal</title>
 <body>
-  <marquee behavior="scroll" direction="right">Welcome!  いらっしゃいませ!  欢迎! </marquee>
-  <h1 style="font-family: 'Cambria Math' "> Divyam Samarwal </h1>
+<style>
+            .blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: cambria-math;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+ </style>  
+ <marquee class="blink">Welcome!  いらっしゃいませ!  欢迎!</marquee>
+ <h1 style="font-family: 'Cambria Math' "> Divyam Samarwal </h1>
   
 </body>
 </html>

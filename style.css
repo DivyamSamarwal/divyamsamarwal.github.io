@@ -26,7 +26,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    word-spacing: 10px;
+    word-spacing: 20px;
 }
 .logo{
     width: 140px;

@@ -26,6 +26,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    word-spacing: 10px;
 }
 .logo{
     width: 140px;
@@ -70,6 +71,10 @@ nav ul li a:hover::after{
     padding: 80px 0;
     color: #ababab;
 }
+#about p1{
+    line-height:20px;
+}
+    
 .row{
     display: flex;
     align-items: center;

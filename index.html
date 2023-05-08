@@ -28,7 +28,7 @@
         <i class="fas fa-bars" onclick="openmenu()"></i>                                
       </nav>
       <div class="header-text">
-        <p>Welcome.</p>
+        <p class="auto-type"></p>
         <h1>I'm <span>Divyam</span><br>Samarwal From India.</h1>
       </div>
     </div>
@@ -196,6 +196,11 @@
       )
       .catch(error => console.error('Error!', error.message))
   })
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+ var typed = new Typed(".auto-type",
+                       {string:["Welcome."], typeSpeed: 150, backSpeed: 150, loop:True})
 </script>
 </body>
 </html>

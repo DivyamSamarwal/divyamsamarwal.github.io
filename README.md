@@ -1,7 +1,7 @@
-# divyamsamarwal.github.io
-# Image Attribution
-- [Freepik](https://www.flaticon.com/authors/freepik) for the [Cat icon](https://www.flaticon.com/free-icon/kitty_763775?term=cat&page=1&position=18&origin=search&related_id=763775)
+# divyamsamarwal.me
 # Icons
 - [FontAwesome](https://fontawesome.com/icons)
 # Font
 - [Katex](https://katex.org/docs/browser.html)
+# Things to change after fork
+- `index.html` -> fontawesome kit,submit-to-google sheet scriptUrl [see more](https://github.com/jamiewilson/form-to-google-sheets)

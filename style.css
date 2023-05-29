@@ -169,7 +169,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #7FFFD4;
     transform: translateY(-10px);
 }
 /*----------portfolio----------*/

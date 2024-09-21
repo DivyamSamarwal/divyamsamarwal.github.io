@@ -1,4 +1,9 @@
-
+*{
+margin: 0;
+padding: 0;
+font-family: 'Computer Modern Sans',Serif;
+box-sizing: border-box;
+}
 html{
 scroll-behavior: smooth;
 }

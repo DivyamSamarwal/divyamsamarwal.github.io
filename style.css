@@ -46,7 +46,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background:#FA7161;
+    background:#FFCC66;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -64,7 +64,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #FA7161;
+    color: #FFCC66;
 }
 /*----------about----------*/
 #about{
@@ -111,7 +111,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background:#FA7161;
+    background:#FFCC66;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -126,7 +126,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     font-size: 14px;
-    color: #FA7161;
+    color: #FFCC66;
 }
 .tab-contents{
     display: none;
@@ -145,7 +145,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .services-list div{
-    background: #362A2D;
+    background: #DF9755;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -169,7 +169,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #FA7161;
+    background: #FFCC66;
     transform: translateY(-10px);
 }
 /*----------portfolio----------*/
@@ -196,7 +196,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#FA7161);
+    background: linear-gradient(rgba(0,0,0,0.6),#FFCC66);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -217,7 +217,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #FA7161;
+    color: #FFCC66;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -237,7 +237,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #FA7161;
+    border: 1px solid #FFCC66;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -245,7 +245,7 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #FA7161;
+    background: #FFCC66;
 }
 /*----------contact----------*/
 .contact-left{
@@ -260,7 +260,7 @@ nav ul li a:hover::after{
 .contact-left p i{
     margin-right: 15px;
     font-size: 25px;
-    color: #FA7161;
+    color: #FFCC66;
 }
 .social-icons{
     margin-top: 30px;
@@ -274,12 +274,12 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #FA7161;
+    color: #FFCC66;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #FA7161;
+    background: #FFCC66;
 }
 .contact-right form{
     width: 100%;
@@ -288,7 +288,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #362A2D;
+    background: #DF9755;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -305,7 +305,7 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #362A2D;
+    background: #DF9755;
     font-weight: 300;
     margin-top: 20px;
 }
@@ -329,7 +329,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #FA7161;
+        background: #FFCC66;
         position: fixed;
         top: 0;
         right: -200px;

@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="description" content="Hello there I'm Divyam Samarwal currently living in New Delhi,India. I'm enthusiastic about mathematics and machine learning.">
- <title>Divyam Samarwal</title>
- <link rel="stylesheet" href="style.css">
- <script src="https://kit.fontawesome.com/bc263ae0d1.js" crossorigin="anonymous"></script>
- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
- <style>
-    body {
-      font-family: "Computer Modern Serif", serif;
-    }
- </style>
- <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hello there I'm Divyam Samarwal currently living in New Delhi, India. I'm enthusiastic about mathematics and machine learning.">
+  <title>Divyam Samarwal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <script src="https://kit.fontawesome.com/bc263ae0d1.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"> 
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>  -->
- <link rel="icon" href="images/logo.png" type="image/png">
 <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6993691753850474"crossorigin="anonymous"></script>  -->
 </head>
  <!-- Google tag (gtag.js) -->
@@ -38,7 +34,12 @@ new google.translate.TranslateElement({pageLanguage: 'en', layout: google.transl
 }
 // ]]></script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script> -->
-<div id="header">
+ <body>
+  <div class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode">
+    <i class="fas fa-sun"></i>
+    <i class="fas fa-moon"></i>
+  </div>
+  <div id="header" class="glass section animate-fade-up">
     <div class="container">
       <nav>
         <img src="images/logo.png" class="logo" alt="Divyam Samarwal">
@@ -50,205 +51,169 @@ new google.translate.TranslateElement({pageLanguage: 'en', layout: google.transl
           <li><a href="#contact">Contact</a></li>
           <i class="fas fa-times" onclick="closemenu()"></i>
         </ul>
-        <i class="fas fa-bars" onclick="openmenu()"></i>                                
+        <i class="fas fa-bars" onclick="openmenu()"></i>
       </nav>
-      <div class="header-text" style="text-align: center;">
-       <p><span class="auto-type"></span></p>
+      <div class="header-text animate-fade-up">
+        <p><span class="auto-type"></span></p>
         <h1>I'm <span>Divyam Samarwal</span><br> From India.</h1>
       </div>
     </div>
-</div>
-<div id="about">
-  <div class="container">
-    <div class="row">
-      <div class="about-col-1"></div>
-      <div class="about-col-2"></div>
+  </div>
+  <div id="about" class="glass section animate-fade-up">
+    <div class="container">
       <h1 class="sub-title">About Me</h1>
-      <p1>I'm a 19 year old currently in New Delhi,India.I'm enthusiastic about mathematics and machine learning.<br><b>My Hobbies</b><br><b>Anime:</b> I've watched Pocket Monsters,Naruto & many more.<br><b>Gaming:</b> I've played PUBG Mobile,Minecraft,Valorant,Honkai Star Rail and currently play Genshin Impact, Zenless Zone Zero, Clash of Clans and Pokemon GO.I've completed Pokemon R,B & G, gold, ruby & sapphire, platinum,black & white, x & y, sword & shield.<br><b>Music:</b> I enjoy listening to anime,j-pop,j-rock and pop music genres.<br><b>Sports:</b> I used to play lawn tennis in school days.</p1>
-      <div class="tab-titles">
-        <p class ="tab-links active-link" onclick="opentab('techiuse')">Technology</p>
-        <p class ="tab-links" onclick="opentab('skills')">Skills</p>
-        <p class ="tab-links" onclick="opentab('education')">Education</p>
+      <div class="about-desc">
+        
+         <p1>I'm a 19 year old currently in New Delhi,India.I'm enthusiastic about mathematics and machine learning.<br><b>My Hobbies</b><br><b>Anime:</b> I've watched Pocket Monsters,Naruto & many more.<br><b>Gaming:</b> I've played PUBG Mobile,Minecraft,Valorant,Honkai Star Rail and currently play Genshin Impact, Zenless Zone Zero, Clash of Clans and Pokemon GO.I've completed Pokemon R,B & G, gold, ruby & sapphire, platinum,black & white, x & y, sword & shield.<br><b>Music:</b> I enjoy listening to anime,j-pop,j-rock and pop music genres.<br><b>Sports:</b> I used to play lawn tennis in school days.</p1>
+        
       </div>
-      <div class="tab-contents active-tab" id="techiuse">
-        <ul>
-          <li><span>Programming Languages</span><br><i class="fa-brands fa-python"></i> <i class="fa-brands fa-rust"></i> <i class="fa-brands fa-react"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i></li>
-          <li><span>Deployment/Cloud</span><br><i class="fa-brands fa-docker"></i> <i class="fa-brands fa-git-alt"></i> <i class="fa-brands fa-aws"></i> <i class="fa-brands fa-cloudflare"></i></li>
-          <li><span>Misc.</span><br><i class="fa-brands fa-soundcloud"></i> <i class="fa-brands fa-stack-overflow"></i> <i class="fa-brands fa-markdown"></i> <i class="fa-brands fa-hackerrank"></i> <i class="fa-solid fa-font-awesome"></i></li>
-        </ul>
-      </div>
-      <div class="tab-contents" id="skills">
-        <ul>
-          <li><span>UI/UX</span><br>Designing logos and templates.</li>
-          <li><span>Problem Solving</span><br>I'm good at solving maths problems.</li>
-          <li><span>Communication</span><br>I know Hindi,Sanskrit,French and Japanese.</li>
-        </ul>
-      </div>
-      <div class="tab-contents" id="education">
-        <ul>
-          <li><span>2023</span><br>Bal Bharati Public School, New Delhi</li>
-          <li><span>23-24</span><br>FIITJEE Dwarka, New Delhi</li>
-          <li><span>24-28</span><br>Netaji Subhas University of Technology, New Delhi</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="services">
-  <div class="container">
-    <h1 class="sub-title">My Services</h1>
-    <div class="services-list">
-      <div>
-        <i class="fas fa-code"></i>
-        <h2>Web Design</h2>
-        <p>Websites Designing using html,css and javascript.</p>
-        <a href="#contact">Learn more</a>
-      </div>
-      <div>
-        <i class="fas fa-crop-alt"></i>
-        <h2>UI/UX Design</h2>
-        <p>Designing logos,posters and templates.</p>
-        <a href="#contact">Learn more</a>
-      </div>
-      <div>
-        <i class="fas fa-fan"></i>
-        <h2>Game/Music Development</h2>
-        <p>I used to develop games using Unreal Engine and can make electronic music.</p>
-        <a href="#contact">Learn more</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="portfolio">
-  <div class="container">
-    <h1 class="sub-title">My Work</h1>
-    <div class="work-list">
-      <div class="work">
-        <img src="images/work.webp" alt="Autobot by Divyam Samarwal">
-        <div class="layer">
-          <h3>Discord Bot</h3>
-          <p>Autobot A multi-functional discord bot.</p>
-          <a href="https://techsaurus.vercel.app/" aria-label="Visit my bot website."><i class="fas fa-external-link-alt"></i></a>
+      <div class="tabs-and-content">
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('techiuse')">Technology</p>
+          <p class="tab-links" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
         </div>
-      </div>
-      <div class="work">
-        <img src="images/work3.webp" alt="Outlines by Divyam Samarwal">
-        <div class="layer">
-          <h3>Outlines Math & Physics</h3>
-          <p>This repository contains of material of Physics and Mathematics( High School and Early University level).</p>
-          <a href="https://github.com/DivyamSamarwal/awesome-math-and-physics" aria-label="Outlines maths and physics"><i class="fas fa-external-link-alt"></i></a>
+        <div class="tab-contents active-tab" id="techiuse">
+          <ul>
+            <li>
+              <span class="tab-label">Programming Languages</span>
+              <span class="tab-icons">
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-rust"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+              </span>
+            </li>
+            <li>
+              <span class="tab-label">Deployment/Cloud</span>
+              <span class="tab-icons">
+                <i class="fa-brands fa-docker"></i>
+                <i class="fa-brands fa-git-alt"></i>
+                <i class="fa-brands fa-aws"></i>
+                <i class="fa-brands fa-cloudflare"></i>
+              </span>
+            </li>
+            <li>
+              <span class="tab-label">Misc.</span>
+              <span class="tab-icons">
+                <i class="fa-brands fa-soundcloud"></i>
+                <i class="fa-brands fa-stack-overflow"></i>
+                <i class="fa-brands fa-markdown"></i>
+                <i class="fa-brands fa-hackerrank"></i>
+                <i class="fa-solid fa-font-awesome"></i>
+              </span>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="work">
-        <img src="images/work2.webp" alt="Troll">
-        <div class="layer">
-          <h3>Definitely</h3>
-          <p>a troll</p>
-          <a href="https://tinyurl.com/2p8ujhyk"><i class="fas fa-external-link-alt"></i></a>
+        <div class="tab-contents" id="skills">
+          <ul>
+            <li><span class="tab-label">UI/UX</span> Designing logos and templates.</li>
+            <li><span class="tab-label">Problem Solving</span> I'm good at solving maths problems.</li>
+            <li><span class="tab-label">Communication</span> I know Hindi, Sanskrit, French and Japanese.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span class="tab-label">2023</span> Bal Bharati Public School, New Delhi</li>
+            <li><span class="tab-label">23-24</span> FIITJEE Dwarka, New Delhi</li>
+            <li><span class="tab-label">24-28</span> Netaji Subhas University of Technology, New Delhi</li>
+          </ul>
         </div>
       </div>
     </div>
-    <a href="https://github.com/DivyamSamarwal" class="btn">More projects on Github!</a>
   </div>
-</div>
-
-<div id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="contact-left">
-        <h1 class="sub-title">Contact Me</h1>
-        <p><i class="fa-solid fa-paper-plane"></i> dynamicdomainltd@gmail.com</p>
-        <p><i class="fa-solid fa-square-phone"></i> +91 XXXXXXXXXX</p>
-        <div class="social-icons">
-        <a href="https://github.com/DivyamSamarwal" aria-label="Visit Github!"><i class="fa-brands fa-github" style="color: #FFCC66;"></i></a>
-        <a href="https://open.spotify.com/user/31nigfmlpsipupfw723rgpde5hj4" aria-label="My music taste"><i class="fa-brands fa-spotify" style="color: #FFCC66;"></i></a>
-        <a href="https://www.linkedin.com/in/divyam-samarwal-279107228/" aria-label="My Linkedin Profile"><i class="fa-brands fa-linkedin" style="color: #FFCC66;"></i></a>
-        <a href="https://www.youtube.com/channel/UCYk1CQIDaPsW3sP2Da7R8lg" aria-label="My youtube channel"><i class="fa-brands fa-youtube" style="color: #FFCC66;"></i></a>
-        <a href="https://twitter.com/DivyamSamarwal" aria-label="Follow me on twitter"><i class="fa-brands fa-x-twitter" style="color: #FFCC66;"></i></a>
-        <a href="https://discord.com/users/780721106838618112" aria-label="Connect me on discord!"><i class="fa-brands fa-discord" style="color: #FFCC66;"></i></a>        
+  <div id="services" class="glass section animate-fade-up">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div class="card animate-pop">
+          <i class="fas fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Websites Designing using HTML, CSS and JavaScript.</p>
+          <a href="#contact">Learn more</a>
         </div>
-        <a href="images/research1.pdf" download class="btn btn2">Research & Me.</a>
-      </div>
-      <div class="contact-right">
-        <form name="submit-to-google-sheet">
-          <input type="text" name="Name" placeholder="Your Name" required>
-          <input type="email" name="Email" placeholder="Your Email" required>
-          <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
-          <button type="submit" class="btn btn2">Submit</button>
-        </form>
-        <span id="msg"></span>
+        <div class="card animate-pop" style="animation-delay:0.08s;">
+          <i class="fas fa-crop-alt"></i>
+          <h2>UI/UX Design</h2>
+          <p>Designing logos, posters and templates.</p>
+          <a href="#contact">Learn more</a>
+        </div>
+        <div class="card animate-pop" style="animation-delay:0.16s;">
+          <i class="fas fa-fan"></i>
+          <h2>Game/Music Development</h2>
+          <p>I used to develop games using Unreal Engine and can make electronic music.</p>
+          <a href="#contact">Learn more</a>
+        </div>
       </div>
     </div>
   </div>
-  <div class="copyright">
-    <p>Divergence.<br>&copy; 2025 Divyam Samarwal.</p>
-    <p>🌌 <span id="ipAddress">loading...</span></p>
+  <div id="portfolio" class="glass section animate-fade-up">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work animate-pop">
+          <img src="images/work.webp" alt="Autobot by Divyam Samarwal">
+          <div class="layer">
+            <h3>Discord Bot</h3>
+            <p>Autobot A multi-functional discord bot.</p>
+            <a href="https://techsaurus.vercel.app/" aria-label="Visit my bot website."><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work animate-pop" style="animation-delay:0.08s;">
+          <img src="images/work3.webp" alt="Outlines by Divyam Samarwal">
+          <div class="layer">
+            <h3>Outlines Math & Physics</h3>
+            <p>This repository contains material of Physics and Mathematics (High School and Early University level).</p>
+            <a href="https://github.com/DivyamSamarwal/awesome-math-and-physics" aria-label="Outlines maths and physics"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work animate-pop" style="animation-delay:0.16s;">
+          <img src="images/work2.webp" alt="Troll">
+          <div class="layer">
+            <h3>Definitely</h3>
+            <p>a troll</p>
+            <a href="https://tinyurl.com/2p8ujhyk"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/DivyamSamarwal" class="btn animate-fade-up">More projects on Github!</a>
+    </div>
   </div>
-</div>
- 
-<script>
-    // Fetch the IP address from a public IP API
-    fetch('https://api.ipify.org?format=json')
-        .then(response => response.json())
-        .then(data => {
-            // Insert the IP address into the span with id="ipAddress"
-            document.getElementById('ipAddress').textContent = data.ip;
-        })
-        .catch(error => {
-            console.error('Error fetching IP address:', error);
-            document.getElementById('ipAddress').textContent = 'unavailable';
-        });
-</script>
- 
-<script>
-  var tablinks = document.getElementsByClassName("tab-links");
-  var tabcontents = document.getElementsByClassName("tab-contents");
-  function opentab(tabname){
-    for(tablink of tablinks)
-    {
-      tablink.classList.remove("active-link");
-    }
-    for(tabcontent of tabcontents)
-    {
-      tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-  }
-</script>
-<script>
-  var sidemenu = document.getElementById("sidemenu");
-  function openmenu(){
-    sidemenu.style.right = "0px";
-  }
-  function closemenu(){
-    sidemenu.style.right = "-200px";
-  }
-</script>
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbywnE081z-lNpRNfXeQmSnmlIcLvql8TwMARDBbfmOoCVtcU7PXFz5iK4VWCrrhYbWz/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById('msg')
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response =>{
-        msg.innerHTML = "Message Sent Successfully";
-        setTimeout(function(){
-          msg.innerHTML = "";
-        }, 5000);
-        form.reset();
-      }
-      )
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-<script>
- var typed = new Typed(".auto-type",
-                       {strings: ["Welcome!","स्वागतम्‌।","いらっしゃいませ!","환영!","欢迎!"], typeSpeed: 120, backSpeed: 120, loop:true})
-</script>
+  <div id="contact" class="glass section animate-fade-up">
+    <div class="container">
+      <h1 class="sub-title">Contact Me</h1>
+      <div class="row">
+        <div class="contact-left">
+          <p><i class="fa-solid fa-paper-plane"></i> dynamicdomainltd@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> +91 XXXXXXXXXX</p>
+          <div class="social-icons">
+            <a href="https://github.com/DivyamSamarwal" aria-label="Visit Github!"><i class="fa-brands fa-github"></i></a>
+            <a href="https://open.spotify.com/user/31nigfmlpsipupfw723rgpde5hj4" aria-label="My music taste"><i class="fa-brands fa-spotify"></i></a>
+            <a href="https://www.linkedin.com/in/divyam-samarwal-279107228/" aria-label="My Linkedin Profile"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCYk1CQIDaPsW3sP2Da7R8lg" aria-label="My youtube channel"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/DivyamSamarwal" aria-label="Follow me on twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://discord.com/users/780721106838618112" aria-label="Connect me on discord!"><i class="fa-brands fa-discord"></i></a>
+          </div>
+          <a href="images/research1.pdf" download class="btn btn2 animate-fade-up">Research & Me.</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn2 animate-fade-up">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright glass">
+      <p>Divergence.<br>&copy; 2025 Divyam Samarwal.</p>
+      <p>🌌 <span id="ipAddress">loading...</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

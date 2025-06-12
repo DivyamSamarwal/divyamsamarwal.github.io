@@ -112,10 +112,40 @@ nav ul li a:hover::after { width: 100%; }
 nav ul li a:hover, nav ul li a:focus { color: var(--primary); background: rgba(255,204,102,0.08);}
 nav .fas { display: none; }
 
-.header-text { margin-top: 8vh; text-align: center; }
-.header-text h1 { font-size: 2.6rem; margin-top: 1rem; font-weight: 700; letter-spacing: 0.01em;}
+.header-text {
+  margin-top: 8vh;
+  text-align: center;
+}
+.header-text p {
+  min-height: 2.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 1.38rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.auto-type {
+  display: inline-block;
+  min-width: 10em; /* fits longest phrase and cursor */
+  text-align: center;
+  vertical-align: top;
+}
+.header-text h1 {
+  font-size: 2.6rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
 .header-text h1 span { color: var(--primary); }
-.sub-title { font-size: 2rem; font-weight: 800; color: var(--primary); margin-bottom: 1.3rem; letter-spacing: 0.02em;}
+.sub-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 1.3rem;
+  letter-spacing: 0.02em;
+}
 
 .row { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: flex-start;}
 .about-col-1, .about-col-2 { flex: 1; }
